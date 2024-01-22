@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+    <title>Formulário de cadastro</title>
+
+</head>
+<body>
+    
+    <div class="container">
+        <section class="header">
+            <h2>Nova conta</h2>
+        </section>
+        
+        <form id="form" class="form">
+            
+            <div class="form-content">
+                <ion-icon name="person"></ion-icon>
+                <label for="username">Nome do usuário:</label>
+                <input type="text" id="username" placeholder="Digite o nome do usuario...">
+                <a>erro</a>
+            </div>
+
+            <div class="form-content">
+                <ion-icon name="calendar"></ion-icon>
+                <label for="Datebirth">Data de nascimento:</label>
+                <input type="date" id="Datebirth">
+                <a>erro</a>
+            </div>
+    
+            <div class="form-content">
+                <ion-icon name="mail"></ion-icon>
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Digite o seu email...">
+                <a>erro</a>
+            </div>
+    
+            <div class="form-content">
+                <ion-icon name="lock-open"></ion-icon>
+                <label for="password">Senha:</label>
+                <input type="password" id="password" placeholder="Digite sua senha...">
+                <a>erro</a>
+            </div>
+    
+            <div class="form-content">
+                <ion-icon name="shield-checkmark"></ion-icon>
+                <label for="password-confirmation">Confirmação de senha:</label>
+                <input type="password" id="password-confirmation" placeholder="Digite sua senha novamente...">
+                <a>erro</a>
+            </div>
+    
+    <button type="submit">Cadastrar</button>
+    
+        </form>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
